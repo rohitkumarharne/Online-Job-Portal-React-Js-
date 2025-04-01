@@ -1,0 +1,59 @@
+.footer {
+  margin-top: 10px;
+  background-color: #0d1b2a;
+  /* background-color: #0056b3; */
+  color: #ffffff; /* Bright White for text */
+  padding: 40px 0;
+}
+
+.footer h5 {
+  color: #fca311; /* Warm Orange for headings */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer .footer-link {
+  color: #ffffff; /* Bright White for links */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer .footer-link:hover {
+  color: #fca311; /* Warm Orange hover effect */
+  text-decoration: underline;
+}
+
+.footer .text-muted {
+  color: #c5d1e0; /* Light Blue-Gray for muted text */
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer .border-top {
+  border-top: 1px solid #33415c; /* Muted Navy Blue for border */
+}
+
+.footer .text-muted a {
+  color: #c5d1e0; /* Matches the new muted text color */
+  text-decoration: none;
+}
+
+.footer .text-muted a:hover {
+  color: #fca311; /* Warm Orange hover effect */
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer .row {
+    text-align: center;
+  }
+
+  .footer h5 {
+    font-size: 18px;
+  }
+
+  .footer .text-muted {
+    font-size: 13px;
+  }
+}

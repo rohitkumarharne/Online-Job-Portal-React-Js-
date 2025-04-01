@@ -1,0 +1,2 @@
+CREATE VIEW job_application_details AS SELECT      j.id AS application_id,     j.status AS application_status,     j.post_id,     p.job_title,     e.company_name,
+j. jobseeker_id FROM job_applications j JOIN posts p ON p.id = j.post_id JOIN employer_info e ON p.employer_id = e.employer_id;
